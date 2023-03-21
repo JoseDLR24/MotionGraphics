@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>undefined</title>
+  <meta name="generator" content="Google Web Designer 15.2.1.0306">
+  <link href="gwdgesture_style.css" rel="stylesheet" data-version="7" data-exports-type="gwd-gesture">
+  <link href="gwdimage_style.css" rel="stylesheet" data-version="17" data-exports-type="gwd-image">
+  <link href="gwdpage_style.css" rel="stylesheet" data-version="13" data-exports-type="gwd-page">
+  <link href="gwdgallerynavigation_style.css" rel="stylesheet" data-version="8" data-exports-type="gwd-gallerynavigation">
+  <link href="gwdswipegallery_style.css" rel="stylesheet" data-version="28" data-exports-type="gwd-swipegallery">
+  <style id="gwd-text-style">
+    p {
+      margin: 0px;
+    }
+    h1 {
+      margin: 0px;
+    }
+    h2 {
+      margin: 0px;
+    }
+    h3 {
+      margin: 0px;
+    }
+  </style>
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    body {
+      background-color: transparent;
+      transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      transform-style: preserve-3d;
+    }
+    body * {
+      transform-style: preserve-3d;
+    }
+    .gwd-swipegallery-170g {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 33.5%;
+      height: 44.38%;
+      transform: translate(-50%, -50%);
+    }
+    .gwd-gesture-1kwf {
+      position: absolute;
+      left: 0px;
+      top: 50%;
+      height: 300px;
+      width: 428.57px;
+      transform: translate(0%, -50%) translate3d(168px, 0px, 0px);
+    }
+    .gwd-gesture-sbh2 {
+      position: absolute;
+      left: 100%;
+      top: 50%;
+      height: 300px;
+      width: 428.57px;
+      transform: translate(-100%, -50%) translate3d(-169px, 0px, 0px);
+    }
+    .gwd-p-t40j {
+      position: absolute;
+      font-size: 34px;
+      height: 92px;
+      width: 449px;
+      text-align: center;
+      left: 50%;
+      top: 0px;
+      transform: translate(-50%, 0%) translate3d(0px, 65px, 0px);
+    }
+  </style>
+  <script data-source="gwd_webcomponents_v1_min.js" data-version="2" data-exports-type="gwd_webcomponents_v1" src="gwd_webcomponents_v1_min.js"></script>
+  <script data-source="gwdgesture_min.js" data-version="7" data-exports-type="gwd-gesture" src="gwdgesture_min.js"></script>
+  <script data-source="gwdimage_min.js" data-version="17" data-exports-type="gwd-image" src="gwdimage_min.js"></script>
+  <script data-source="gwdpage_min.js" data-version="13" data-exports-type="gwd-page" src="gwdpage_min.js"></script>
+  <script data-source="gwdgallerynavigation_min.js" data-version="8" data-exports-type="gwd-gallerynavigation" src="gwdgallerynavigation_min.js"></script>
+  <script data-source="gwdswipegallery_min.js" data-version="28" data-exports-type="gwd-swipegallery" src="gwdswipegallery_min.js"></script>
+  <script type="text/javascript" gwd-events="support" src="gwd-events-support.1.0.js"></script>
+  <script type="text/javascript" gwd-events="handlers">
+    gwd.auto_Gwd_gesture_1Tap = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdSwipegallery.goBackwards('gwd-swipegallery_1');
+    };
+    gwd.auto_Gwd_gesture_2Tap = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdSwipegallery.goForwards('gwd-swipegallery_1');
+    };
+  </script>
+  <script type="text/javascript" gwd-events="registration">
+    // Código de soporte para la administración de eventos en Google Web Designer
+    // Este bloqueo de la secuencia de comandos se genera automáticamente. No lo edite.
+    gwd.actions.events.registerEventHandlers = function(event) {
+      gwd.actions.events.addHandler('gwd-gesture_1', 'tap', gwd.auto_Gwd_gesture_1Tap, false);
+      gwd.actions.events.addHandler('gwd-gesture_2', 'tap', gwd.auto_Gwd_gesture_2Tap, false);
+    };
+    gwd.actions.events.deregisterEventHandlers = function(event) {
+      gwd.actions.events.removeHandler('gwd-gesture_1', 'tap', gwd.auto_Gwd_gesture_1Tap, false);
+      gwd.actions.events.removeHandler('gwd-gesture_2', 'tap', gwd.auto_Gwd_gesture_2Tap, false);
+    };
+    document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
+    document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
+  </script>
+</head>
+
+<body class="htmlNoPages">
+  <gwd-gesture id="gwd-gesture_2" class="gwd-gesture-sbh2"></gwd-gesture>
+  <gwd-gesture id="gwd-gesture_1" class="gwd-gesture-1kwf"></gwd-gesture>
+  <gwd-swipegallery id="gwd-swipegallery_1" scaling="contain" pause-front-media="" resume-next-media="" class="gwd-swipegallery-170g" images="assets/pexels-eberhard-grossgasteiger-675262.jpg,assets/pexels-pixabay-355553.jpg,assets/pexels-sergei-a-2539418.jpg,assets/pexels-gagandeep-1000054.jpg"></gwd-swipegallery>
+  <p class="gwd-p-t40j">Click to the sides of the images to change it.</p>
+</body>
+
+</html>
